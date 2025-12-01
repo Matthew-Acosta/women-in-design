@@ -1,0 +1,120 @@
+body {
+    background: #f7f7f7;
+    color: #303030;
+    font-family: "Merriweather Sans", sans-serif;
+}
+
+section, header {
+    width: 80%;
+    max-width: 900px;
+    margin: auto;
+}
+
+section, header {
+    margin-bottom: 3rem;
+}
+
+header h1, h2, blockquote {
+    font-family: "Merriweather", serif;
+    color: #072056;
+}
+
+header h1 {
+    font-size: 5.96rem;
+    line-height: 1;
+    color: #AE821C;
+    margin: 5rem 0 1rem 0;
+}
+
+h2 {
+    font-size: 2.618rem;
+}
+
+p{
+    line-height: 1.4;
+}
+
+header h2 {
+    color: #303030;
+    font-family: "Merriweather Sans", sans-serif;
+    font-weight: 500;
+    font-style: oblique;
+    margin-bottom: 4rem;
+}
+
+header p {
+    font-size: 1.562rem;
+    font-family: "Merriweather", serif;
+}
+
+blockquote {
+    font-style: italic;
+    font-size: 1.562rem;
+    hanging-punctuation: first;
+    text-indent: -0.6rem;
+}
+
+.light {
+    background: #d0dbf1;
+    padding: 3rem;
+}
+
+/*-- Styling links --*/
+a {
+    color: #AE821C;
+    text-decoration: none;
+    border-bottom: 2.5px dotted;
+    font-weight: 600;
+}
+
+a:hover {
+    color: rgb(0, 219, 190);
+    transition: all 0.3s ease-in-out;
+}
+
+/*-- Navigation --*/
+.responsivenav {
+    background: #072056;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    font-size: 3.1rem;
+    color: #C89710;
+    font-family: 'Merriweather', serif;
+    font-weight: 600;
+    padding-left: 100px;
+}
+
+nav {
+    display: flex;
+    margin: 1.5rem 0;
+}
+
+nav ul {
+    text-align: right;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    list-style-type: none;
+    padding-right: 100px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+nav a {
+    border-bottom: none;
+    color: #ffffff;
+    padding: 10px;
+}
+
+nav a:hover {
+    color: #f0b261;
+    transition: all 0.3s ease-in-out;
+}
+
